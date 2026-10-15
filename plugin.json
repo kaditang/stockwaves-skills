@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "stockwaves-xstock-check",
+  "version": "0.1.0",
+  "description": "Pre-trade check for tokenized US stocks (xStocks, Ondo, Coinbase B20): real issuer or impersonator, fair value net of the dividend share multiplier, market hours, liquidity, freeze authority. Free verdict; full signals $0.03 over x402.",
+  "author": {
+    "name": "StockWaves",
+    "url": "https://stockwaves.net"
+  },
+  "homepage": "https://stockwaves.net",
+  "repository": "https://github.com/kaditang/stockwaves-skills",
+  "license": "MIT",
+  "keywords": [
+    "stockwaves",
+    "stockwaves xstock check",
+    "xstock-pre-trade-check",
+    "xstocks",
+    "tokenized-stocks",
+    "rwa",
+    "x402"
+  ]
+}

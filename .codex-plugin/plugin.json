@@ -1,0 +1,42 @@
+{
+  "name": "stockwaves-xstock-check",
+  "version": "0.1.0",
+  "description": "Pre-trade check for tokenized US stocks (xStocks, Ondo, Coinbase B20): real issuer or impersonator, fair value net of the dividend share multiplier, market hours, liquidity, freeze authority. Free verdict; full signals $0.03 over x402.",
+  "author": {
+    "name": "StockWaves",
+    "url": "https://stockwaves.net"
+  },
+  "homepage": "https://stockwaves.net",
+  "repository": "https://github.com/kaditang/stockwaves-skills",
+  "license": "MIT",
+  "keywords": [
+    "stockwaves",
+    "stockwaves xstock check",
+    "xstock-pre-trade-check",
+    "xstocks",
+    "tokenized-stocks",
+    "rwa",
+    "x402"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "StockWaves xStock Check",
+    "shortDescription": "Check a tokenized stock before an agent buys it",
+    "longDescription": "Pre-trade check for tokenized US stocks (xStocks, Ondo, Coinbase B20): real issuer or impersonator, fair value net of the dividend share multiplier, market hours, liquidity, freeze authority. Free verdict; full signals $0.03 over x402.",
+    "developerName": "StockWaves",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://stockwaves.net",
+    "termsOfServiceURL": "https://stockwaves.net/terms",
+    "defaultPrompt": [
+      "Is AAPLx a real xStock and is it priced fairly right now?",
+      "Before I buy TSLA on-chain, check which tokenized versions are real.",
+      "Check this token address before I swap into it."
+    ],
+    "brandColor": "#1F6FEB",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg"
+  }
+}

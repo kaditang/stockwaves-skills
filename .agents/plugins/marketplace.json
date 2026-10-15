@@ -1,0 +1,20 @@
+{
+  "name": "stockwaves",
+  "interface": {
+    "displayName": "StockWaves"
+  },
+  "plugins": [
+    {
+      "name": "stockwaves-xstock-check",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "NONE"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

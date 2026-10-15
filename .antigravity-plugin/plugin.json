@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "stockwaves-xstock-check",
+  "description": "Pre-trade check for tokenized US stocks (xStocks, Ondo, Coinbase B20): real issuer or impersonator, fair value net of the dividend share multiplier, market hours, liquidity, freeze authority. Free verdict; full signals $0.03 over x402."
+}
