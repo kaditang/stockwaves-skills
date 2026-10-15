@@ -51,7 +51,7 @@ agy plugin install https://github.com/kaditang/stockwaves-skills
 The skill has no hooks and no scripts: it is instructions plus `curl` calls. It never reads keys,
 never signs, and never trades.
 
-## Data sent and kept
+## Privacy policy: data sent and kept
 
 The skill sends one thing off the machine: an HTTPS GET to `stockwaves.net` with the token
 symbol or contract address being checked (plus `underlying=` or `watch=` addresses in those modes).
