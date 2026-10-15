@@ -51,6 +51,19 @@ agy plugin install https://github.com/kaditang/stockwaves-skills
 The skill has no hooks and no scripts: it is instructions plus `curl` calls. It never reads keys,
 never signs, and never trades.
 
+## Data sent and kept
+
+The skill sends one thing off the machine: an HTTPS GET to `stockwaves.net` with the token
+symbol or contract address being checked (plus `underlying=` or `watch=` addresses in those modes).
+Nothing else from the conversation, the user's files, or the wallet is sent.
+
+For each request, StockWaves logs the time, the endpoint, the HTTP status, the client's
+User-Agent, and the query (for example `symbol=AAPLx`). For a paid call it also logs the paying
+wallet address and the settlement amount, which are public on-chain anyway. IP addresses are used
+in memory for the free-tier daily limit and are not written to the log. Logs are kept for
+operating and improving the service and are not sold or shared. To have records tied to a wallet
+address removed, open an issue on this repository.
+
 ## Not advice
 
 Screening only: issuer authenticity, peg, liquidity, market hours, and on-chain facts. It is not
