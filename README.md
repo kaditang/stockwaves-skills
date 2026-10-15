@@ -60,7 +60,8 @@ Nothing else from the conversation, the user's files, or the wallet is sent.
 For each request, StockWaves logs the time, the endpoint, the HTTP status, the client's
 User-Agent, and the query (for example `symbol=AAPLx`). For a paid call it also logs the paying
 wallet address and the settlement amount, which are public on-chain anyway. IP addresses are used
-in memory for the free-tier daily limit and are not written to the log. Logs are kept for
+in memory for the free-tier daily limit and are not written to the log. The site is served
+through Cloudflare, which processes requests under its own privacy policy. Logs are kept for
 operating and improving the service and are not sold or shared. To have records tied to a wallet
 address removed, open an issue on this repository.
 
